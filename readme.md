@@ -52,8 +52,8 @@ node index.js --memory
 ```
 If --memory is not provided, the session runs without saving/loading settings.
 
-🧪 Command Reference
-Command	Description
+## 🧪 Command Reference
+Command	Description: ``
 /setchar [name]	Set the model's character name
 /setchar --me [name]	Set your (user) character name
 /lang [code]	Change conversation language (en, ko, etc.)
@@ -62,6 +62,7 @@ Command	Description
 /setstartmsg [msg]	Define initial system message
 /outputinfo	Print current configuration info
 /exit	Exit the chatbot
+``
 
 💬 Character JSON Format
 Place in ./chars/<name>.json
